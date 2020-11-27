@@ -1,15 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://2akira.github.io</id>
-    <title>2akira</title>
-    <updated>2020-11-27T15:19:43.761Z</updated>
+    <title>羞于表达的木卯</title>
+    <updated>2020-11-27T16:24:51.506Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://2akira.github.io"/>
     <link rel="self" href="https://2akira.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>不关注流行，只阅读故事</subtitle>
     <logo>https://2akira.github.io/images/avatar.png</logo>
     <icon>https://2akira.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, 2akira</rights>
+    <rights>All rights reserved 2020, 羞于表达的木卯</rights>
+    <entry>
+        <title type="html"><![CDATA[2020-11-27]]></title>
+        <id>https://2akira.github.io/post/2020-11-27/</id>
+        <link href="https://2akira.github.io/post/2020-11-27/">
+        </link>
+        <updated>2020-11-27T16:20:17.000Z</updated>
+        <content type="html"><![CDATA[<p>天气冷了，才意识到冬天。</p>
+<p>傍晚看了[[李一凡]]拍摄的[[乡村档案]]开头，影片纪实了 2007 年发生在重庆乡村的事件。想起一位朋友说过的话，当想回忆童年的那个时代，却总感觉少了些物料的佐证。当时的人穿些什么、想些什么，明明是最熟悉的，可彷佛就是缺少些像样的记录，来体现那份真切。于是，一切变得不真切起来。</p>
+<br>
+<p>最近梳理[[我的 rss 订阅源]]，连带着愈发有个想法——<strong>不看新闻，只看故事；阅读人物，通过共情接触不一样的角落。</strong></p>
+<p>恰巧57届金马奖几日前揭晓，今日看到端传媒讲述「最佳纪录片」得奖影片《迷航》的<a href="https://theinitium.com/article/20201126-culture-li-zhe-xi-documentary-golden-horse/">文章</a>。不禁让我想起几日前未看完的[[李一凡]]纪录片《[[淹没]]》。两者在中国大地的不同角落发酵着，在主流媒体的回避彷佛是静悄悄的。阅读这样的故事，如身处黑夜，你虽然看不清，却依旧可以感受，<strong>除了热搜以外，中国比想象中要大的多。</strong></p>
+<p>但[[迷航]]的文章我只能稍微扫过，[[淹没]]也看得十分艰难。因为前者可能永远都无法观赏，后者找到盗版影片，可不懂方言，也没有中文字幕，两者都是在中国互联网上难以生存的事物。</p>
+<p>会想到去年看过的剧集[[Years and Years ]]，连在豆瓣网标注与评论的资格都没有。</p>
+<br>
+<p>许久没有听歌，今天才发现 Spotify 的会员可能早已失效了。可耻的我又转回了 Youtube Music。</p>
+<p>最近几天在琢磨 Obsidian 最合适自己的用法，并且也打算重启搁置许久的 blog 计划。这篇博文便是用 Gridea 发布在 github pages 上，之后打算再将以前的博文迁移过来。<s>其实发布的时候，还不知道配置的域名 dns 是否生效呢。</s></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[我又用回了 Youtube Music]]></title>
         <id>https://2akira.github.io/post/wo-you-yong-hui-liao-youtube-music/</id>
@@ -68,38 +86,6 @@
 <li>Youtube Music 虽然大而全，但好坏都有；</li>
 <li>Spotify 可能中庸，但少省心些。</li>
 </ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://2akira.github.io/post/hello-gridea/</id>
-        <link href="https://2akira.github.io/post/hello-gridea/">
-        </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
 ]]></content>
     </entry>
 </feed>
