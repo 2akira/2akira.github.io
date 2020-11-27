@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://2akira.github.io</id>
     <title>2akira</title>
-    <updated>2020-11-27T14:43:57.826Z</updated>
+    <updated>2020-11-27T15:19:43.761Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://2akira.github.io"/>
     <link rel="self" href="https://2akira.github.io/atom.xml"/>
@@ -16,17 +16,35 @@
         <link href="https://2akira.github.io/post/wo-you-yong-hui-liao-youtube-music/">
         </link>
         <updated>2020-11-27T14:26:20.000Z</updated>
-        <content type="html"><![CDATA[<p>淘宝上买的 Spotify 会员又失效了。</p>
-<p>原因是淘宝上的廉价会员，都是家庭会员，且跨区多少面临被封禁的危险。店家倒是提供换账号的售后服务，但是作为核心功能的 MIX，每次换账号必定都是一次折腾。所以这次想想还是算了。<s>究其原因还是贪便宜</s>。</p>
+        <content type="html"><![CDATA[<h2 id="我又用回了-youtube-music">我又用回了 Youtube Music</h2>
+<p>淘宝上买的 Spotify 会员又失效了。</p>
+<p>原因是淘宝上的廉价会员，都是家庭会员，且跨区多少面临被封禁的危险。店家倒是提供换账号的售后服务，但是作为核心功能的 MIX，每次换账号必定都是一次折腾。所以这次想想还是算了。<s>究其原因还是贪便宜。</s></p>
 <p>放弃了折腾的想法，我老老实实用回了 Youtuber Music。</p>
-<h3 id="对比下spotify和youtube-music我关注的优缺点">对比下spotify和Youtube Music我关注的优缺点</h3>
+<h2 id="对比下-spotify-和-youtube-music-我关注的优缺点">对比下 spotify 和 Youtube Music 我关注的优缺点</h2>
+<h3 id="歌词">歌词</h3>
 <ul>
-<li>两者可以说都没有歌词，Youtube Music 最近播放列表右侧有 Lyrics 功能，但是显然还未服务到华语歌曲，Spotify 在美区，也不知道歌词是何物。<strong>好在都可以使用开源软件 <a href="https://github.com/ddddxxx/LyricsX">LyricsX</a>同步歌词</strong> ，实现类似网易云音乐和 QQ 音乐类似的歌词效果。Spotify 唯一的好处是，LyricsX 提供打开 Spotify 的同时打开歌词软件。Youtube Music 虽然也可以自动识别，但是其实并不怎么管用。</li>
-<li>曲库来说，显然 Youtube Music 更胜一筹。<strong>有版权的没版权的，只有 YouTube 有，在 Youtube Music 好像都可以听到</strong>。Spotify 即使美区很多华语歌曲和日语歌曲都没有版权。</li>
-<li>推送上，个人感觉 Youtube Music 比 Spotify 准确，但是却有一种口味反复推送的意味。不过上次使用还没有 MIX，希望有所改善吧。</li>
-<li>Youtube Music 有一种极其不规范的感觉。
+<li>两者可以说都没有歌词。Youtube Music 最近播放列表右侧有 Lyrics 功能，但是显然还未服务到华语歌曲，Spotify 在美区，也不知道歌词是何物。</li>
+<li><strong>好在都可以使用开源软件 <a href="https://github.com/ddddxxx/LyricsX">LyricsX</a>同步歌词</strong> ，实现类似网易云音乐和 QQ 音乐类似的歌词效果。
 <ul>
-<li>搜索时同时显示歌曲和视频，有种不干净的感受。</li>
+<li>Spotify 唯一的好处是，LyricsX 提供打开 Spotify 的同时打开歌词软件。</li>
+<li>Youtube Music 虽然也可以自动识别，但是其实并不怎么管用。</li>
+</ul>
+</li>
+</ul>
+<h3 id="曲库">曲库</h3>
+<ul>
+<li>显然 Youtube Music 更胜一筹。<strong>有版权的没版权的，只有 YouTube 有，在 Youtube Music 好像都可以听到</strong>。</li>
+<li>Spotify 即使美区很多华语歌曲和日语歌曲都没有版权。</li>
+</ul>
+<h3 id="推送-歌单">推送 &amp; 歌单</h3>
+<ul>
+<li>个人感觉 Youtube Music 比 Spotify 准确；</li>
+<li>但是却有一种口味反复推送的意味。不过上次使用还没有 MIX，希望有所改善吧。</li>
+</ul>
+<h3 id="youtube-music-有一种极其不规范的感觉">Youtube Music 有一种极其不规范的感觉</h3>
+<ul>
+<li>歌曲和视频混在在一起，且水准不一，有种不干净的感受。
+<ul>
 <li><strong>你永远不知道下一首是在听歌还是在听视频</strong>，歌曲和视频MV一同推送。（貌似更喜欢推送MV，而不是歌曲。）</li>
 <li>有些歌曲是网友自行上传的，因此<strong>歌曲、视频MV、现场视频混杂在一起</strong>，这种情况下整体品质可以称上是否尴尬了。</li>
 </ul>
@@ -43,7 +61,7 @@
 <li>但比如当你（我）喜欢看 Vtuber 的时候，<strong>一大堆 Vtuber 的翻唱是件令人绝望的事</strong>。</li>
 </ul>
 </li>
-<li>Youtube Music 网页上可以使用 Adblock 屏蔽广告；Android 端可以使用 Vance Youtube。</li>
+<li><s>Youtube Music 网页上可以使用 Adblock 屏蔽广告；Android 端可以使用 Vance Youtube。</s></li>
 </ul>
 <p>如果将两者比喻成大卖场：</p>
 <ul>
