@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://2akira.github.io</id>
     <title>羞于表达的木卯</title>
-    <updated>2020-11-29T17:23:18.266Z</updated>
+    <updated>2020-11-30T15:36:10.644Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://2akira.github.io"/>
     <link rel="self" href="https://2akira.github.io/atom.xml"/>
@@ -10,6 +10,109 @@
     <logo>https://2akira.github.io/images/avatar.png</logo>
     <icon>https://2akira.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 羞于表达的木卯</rights>
+    <entry>
+        <title type="html"><![CDATA[导出 kindle 笔记或标注的工具]]></title>
+        <id>https://2akira.github.io/post/dao-chu-kindle-bi-ji-huo-biao-zhu-de-gong-ju/</id>
+        <link href="https://2akira.github.io/post/dao-chu-kindle-bi-ji-huo-biao-zhu-de-gong-ju/">
+        </link>
+        <updated>2020-11-30T15:30:20.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="列举">列举</h2>
+<ol>
+<li><a href="https://knotesapp.cn/">Knotes</a></li>
+<li><a href="https://toolinbox.net/Klib/">Klib</a></li>
+<li><a href="https://bookfere.com/post/110.html">Clippings Fere</a></li>
+<li><a href="https://www.clippings.io/">Clippings.io</a></li>
+<li><a href="https://readwise.io/">Readwise</a></li>
+</ol>
+<h2 id="无法避开的雷">无法避开的雷</h2>
+<p><strong>1. 个人文档的标记或笔记，它们无法在多终端同步。</strong></p>
+<p>如果书籍是个人文档，则相应的标记或笔记，将不在各个终端之间同步。即使通过邮件发送的个人文档，也仅仅是阅读进度同步，但是标记之类的是不会同步的。</p>
+<p>😊 所以，不要在手机端阅读好了。😊</p>
+<p><strong>2. 在 Kindle 阅读器输入笔记是个灾难，标记也往往划多个几个字或词。</strong></p>
+<p>我想没多少人会自残到在 Kindle 阅读器上做笔记，我愿意之间随手用手机将笔记打在 Google Keep 中。</p>
+<p>至于标记，因为操作的不便捷，根据我的记录来看，也可能会出现一下几种错误：</p>
+<ul>
+<li>前后可能多了或少了标点符号，或是字词；</li>
+<li>标记「划」了两次，结果重复标记了（其中一条记录可能是多了个句号，或是觉得相邻句子也重要于是合并标记导致）；</li>
+<li>跨页标记的问题。（这是个谜题）</li>
+</ul>
+<p><strong>3. 除非是亚马逊购买的书籍，否则当你想回顾阅读笔记或标记时，你是无法对应上下文。</strong></p>
+<p>当在 Klib 阅读亚马逊书籍的笔记时，是可以直接跳转到 Kindle for Mac 应用中对应的书籍的标记位置，查询笔记或标记的上下文。</p>
+<p>这对回顾笔记的用途和意义，造成了一定的干扰。</p>
+<h2 id="对比-选择">对比 &amp; 选择</h2>
+<p><em>以下对比的体验场景，默认是在国区，且会阅读导入的个人文档书籍。</em></p>
+<ol>
+<li>终端</li>
+</ol>
+<p>Knotes: Windows, Mac OS, iOS（预计在明年初推出 Android 端）<br>
+Klib: Mac OS<br>
+Clippings Fere: Windows, Mac OS<br>
+Clippings.io: Web<br>
+Readwise: Web</p>
+<p>事实上，主流的应用场景还是直接导入 Kindle 终端中 Clipping.txt 文件的形式。</p>
+<ol start="2">
+<li>收费之王：Knotes</li>
+</ol>
+<p>收费意味着持续的功能与体验更新和 bug 修正。所以若对价格不敏感，则 Knotes 应该是最好的选择。</p>
+<p>Knotes 刚刚 iOS 版本发布，年价格降至 ¥33 对比 Klib 的 ¥99/year 和 Readwise 的 $7.99/month，基础功能上，Knotes 和 Klib 都具备导入、导出、新添笔记、编辑笔记的功能。</p>
+<p>但个人认为 Knotes 显然更贴近用户体验，且针对国内环境提供了一些本地化的亮点，如：</p>
+<ul>
+<li>整合微信读书的笔记导入；</li>
+<li>书籍管理；</li>
+<li>笔记回顾提醒；</li>
+<li>将书摘和笔记制作图片，分享到社交网络；</li>
+<li>多终端使用。</li>
+</ul>
+<p>当然， Klib 也提供一些差异化功能亮点，如：</p>
+<ul>
+<li>Apple Books 的导入；</li>
+<li>上文提到的查看书籍上下文；</li>
+<li>可将整本书的笔记通过链接分享出来；</li>
+<li>针对整本书，提炼出二级标题（有在内构整本书框架的意味，可惜有些含糊不清）；</li>
+</ul>
+<p><strong>综合看来，Knotes 其实是最好的选择。</strong></p>
+<ol start="3">
+<li>免费仔之王：Clippings Fere &amp; Clippings.io</li>
+</ol>
+<p>Clippings Fere 为本地工具，输出 html 网页。除此显示二级目录外，没有上述任何收费应用的的大功能。</p>
+<p>Clippings.io 为 web 工具，完全可以想像成 Clippings Fere 的网页版本。不过另外提供一些其他服务：</p>
+<ul>
+<li>新添笔记；</li>
+<li>编辑笔记；</li>
+<li>导出笔记；</li>
+<li>搜索；</li>
+<li>标签；</li>
+<li>书籍分类；</li>
+<li>My Clippings.txt 文件版本记录。</li>
+</ul>
+<p>不过 Clippings.io 在笔记过多的情况下，会存在一秒左右的刷新加载时间。从功能上说， Clippings.io 其实能与其他收费应用相比较了。</p>
+<p>当然，Clippings Fere 也胜在简洁明了，若想拥有一个纯净的阅读展示工具，其实是个不错的选择。</p>
+<h2 id="我的观念与偏见">我的观念与偏见</h2>
+<p><strong>1. 应该用自己的话归纳笔记，而不是做书摘。</strong></p>
+<p>学习过 [Zettelkasten] 卡片盒笔记法](https://zettelkasten.de/)和《如何阅读一本书》之后，我认识到「真正的笔记」应该是用自己的话表述的。若想有效地读增进理解的书，笔记也不该是零散的，而是针对书籍框架、带着问题作出分析笔记。</p>
+<p><strong>2. 所以我不会在此类 Kindle 笔记或标注的工具上，从事新添笔记、编辑笔记，因为这些都不是「真正的笔记」。</strong></p>
+<p>我倾向于将这类工具作为一个展示标记的载体。毕竟做「真正的笔记」，可能还需要重读书籍、章节或上下文。而<strong>这个载体的功能则为在书写「真正的笔记」时，提供重点、记忆点。</strong></p>
+<p><strong>3. 大多数工具其实仅限于提升丁点的效率，切莫陷入研究工具中，而忘记为理解而读书的本质。</strong></p>
+<p>静下，想一想千百年来普通与伟大的人，你与他们差的并不是工具。</p>
+<hr>
+<p>References:</p>
+<ol>
+<li><a href="https://blog.k8s.li/kindle-note.html">分享 kindle 标注的几种方法</a></li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2020-11-30]]></title>
+        <id>https://2akira.github.io/post/2020-11-30/</id>
+        <link href="https://2akira.github.io/post/2020-11-30/">
+        </link>
+        <updated>2020-11-30T15:29:24.000Z</updated>
+        <content type="html"><![CDATA[<p>我意识到前几篇文章好像毫无意义，它们并未涉及那些我重写 Blog 想触及的价值——内省与反思，自己在哪里、去哪里。</p>
+<p>我没有<strong>关心自己</strong>，也没有<strong>去爱自己及他人</strong>。</p>
+<p>我忘记了村上春树谈及的《舞！舞！舞》，也未如 许均 说的「与自己所处的现在促膝长谈」 Sing a song，并「拥抱自己」。</p>
+<p>在阅读的一篇<a href="https://matters.news/@az/%25E5%25BE%259E%25E5%25A4%25A7%25E9%2599%25B8%25E5%25AF%2584%25E7%25B5%25A6%25E9%2581%2594%25E6%2598%258E%25E7%259A%2584%25E6%2583%2585%25E6%259B%25B8-%25E6%2588%2591%25E6%25AC%25A0%25E4%25BD%25A0%25E5%2580%2591%25E5%25BE%2588%25E5%25A4%259A%25E7%259C%25BC%25E6%25B7%259A%25E8%25A6%2581%25E5%2588%25B0%25E7%258F%25BE%25E5%25A0%25B4%25E9%2582%2584-bafyreihvknqmp4tbcrsksevn5tyvdejsmn6erlrz7kdncrufzc6ohibtqa">文章</a>中也谈及关注个体。他说，「去愛每一個有血有肉的人，去愛每一個獨立的個體，而不是去愛一個冰冷的機器，也不是一個忽略渺小而美好的個體的宏大敘事。」</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O56wBZ4zQ5Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2020-11-29]]></title>
         <id>https://2akira.github.io/post/2020-11-29/</id>
