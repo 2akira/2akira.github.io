@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://2akira.github.io</id>
     <title>羞于表达的木卯</title>
-    <updated>2020-12-01T14:51:22.421Z</updated>
+    <updated>2020-12-02T14:48:10.636Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://2akira.github.io"/>
     <link rel="self" href="https://2akira.github.io/atom.xml"/>
@@ -10,6 +10,23 @@
     <logo>https://2akira.github.io/images/avatar.png</logo>
     <icon>https://2akira.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 羞于表达的木卯</rights>
+    <entry>
+        <title type="html"><![CDATA[2020-12-02]]></title>
+        <id>https://2akira.github.io/post/2020-12-02/</id>
+        <link href="https://2akira.github.io/post/2020-12-02/">
+        </link>
+        <updated>2020-12-02T14:47:44.000Z</updated>
+        <content type="html"><![CDATA[<p>今天看完改编电视剧[[棋魂]]，才想起查了查今年[[金鸡奖]]的情况。</p>
+<p>最佳故事片 - 夺冠，最佳男主角 - 黄晓明，另设立特别奖表彰《我和我的祖国》，再看一看颁奖典礼的表演节目，香港人刘德华不过意连唱两首爱国歌。</p>
+<p>为此，我决定 2021 年不再看任何国产剧情片。</p>
+<blockquote>
+<p>星辰大海<br>
+青春 自有青春的向往<br>
+约定 在诗歌的远方<br>
+长风破浪</p>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2020-12-01]]></title>
         <id>https://2akira.github.io/post/2020-12-01/</id>
