@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://2akira.github.io</id>
     <title>羞于表达的木卯</title>
-    <updated>2020-12-02T15:22:27.938Z</updated>
+    <updated>2020-12-03T16:19:02.069Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://2akira.github.io"/>
     <link rel="self" href="https://2akira.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://2akira.github.io/images/avatar.png</logo>
     <icon>https://2akira.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 羞于表达的木卯</rights>
+    <entry>
+        <title type="html"><![CDATA[2020-12-03]]></title>
+        <id>https://2akira.github.io/post/2020-12-03/</id>
+        <link href="https://2akira.github.io/post/2020-12-03/">
+        </link>
+        <updated>2020-12-03T16:17:55.000Z</updated>
+        <content type="html"><![CDATA[<p>拖延症到了一定程度，便已经不是单纯拖延的问题了。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2020-12-02]]></title>
         <id>https://2akira.github.io/post/2020-12-02/</id>
