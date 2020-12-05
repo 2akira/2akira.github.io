@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://2akira.github.io</id>
     <title>羞于表达的木卯</title>
-    <updated>2020-12-04T13:50:52.902Z</updated>
+    <updated>2020-12-05T16:02:27.316Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://2akira.github.io"/>
     <link rel="self" href="https://2akira.github.io/atom.xml"/>
@@ -10,6 +10,16 @@
     <logo>https://2akira.github.io/images/avatar.png</logo>
     <icon>https://2akira.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 羞于表达的木卯</rights>
+    <entry>
+        <title type="html"><![CDATA[2020-12-05]]></title>
+        <id>https://2akira.github.io/post/2020-12-05/</id>
+        <link href="https://2akira.github.io/post/2020-12-05/">
+        </link>
+        <updated>2020-12-05T16:01:55.000Z</updated>
+        <content type="html"><![CDATA[<p>若不与自己和解，不与自身的历史和解，那份心思与积郁便永远暗藏在心中了。这些其实是无法遗忘的，只能麻痹自己，却不知觉沉浸在痛苦之中。</p>
+<p>滴答清单针对专注提供了两种模式，一种是以往的番茄时钟，一种是符合心流的正计时。有段时间我了解到了心流，便不大偏爱番茄时钟。可是最近又遇见了拖延的问题，便又怀念起番茄时钟，后来转念一想，其实番茄时钟与心流并没有什么冲突，以番茄时钟的方式进行心流便可。若乏味了便停止，稍后开始另一个番茄好了。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2020-12-03]]></title>
         <id>https://2akira.github.io/post/2020-12-03/</id>
