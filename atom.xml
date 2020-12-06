@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://2akira.github.io</id>
     <title>羞于表达的木卯</title>
-    <updated>2020-12-05T16:02:27.316Z</updated>
+    <updated>2020-12-06T16:27:02.311Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://2akira.github.io"/>
     <link rel="self" href="https://2akira.github.io/atom.xml"/>
@@ -10,6 +10,45 @@
     <logo>https://2akira.github.io/images/avatar.png</logo>
     <icon>https://2akira.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 羞于表达的木卯</rights>
+    <entry>
+        <title type="html"><![CDATA[2020-12-06]]></title>
+        <id>https://2akira.github.io/post/2020-12-06/</id>
+        <link href="https://2akira.github.io/post/2020-12-06/">
+        </link>
+        <updated>2020-12-06T15:26:10.000Z</updated>
+        <content type="html"><![CDATA[<p>时间管理走入误区的几个阶段：</p>
+<ul>
+<li>[[任务管理]]：
+<ul>
+<li>安排任务，制定相应时间提醒；</li>
+<li>可是任务过多，没有完成或延期完成；</li>
+<li>造成巨大挫败感。</li>
+</ul>
+</li>
+<li>[[项目管理]]：
+<ul>
+<li>设定项目，细分为具体任务，设定关键结果；</li>
+<li>可是过于细化，容易沉迷在细节当中；</li>
+<li>从而忘记目标，失去初心。</li>
+</ul>
+</li>
+<li>[[时间管理]]：
+<ul>
+<li>将每天的时间分块；</li>
+<li>每个时间块，对应安排任务，进行完成记录，并总结；</li>
+<li>可是没有完成或延期，完成容易造成巨大挫败感，且总结太浪费时间，也总是忘记。</li>
+</ul>
+</li>
+<li>[[专注管理]]：
+<ul>
+<li>每天设定一个主要任务，专注于完成这个任务；</li>
+<li>主要任务之内，总任务不超过三个，避免注意力分散；</li>
+<li>一个专注时段之后，休息进入非专注时间，于是失去任务的压力和动力。</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2020-12-05]]></title>
         <id>https://2akira.github.io/post/2020-12-05/</id>
@@ -295,79 +334,6 @@ Readwise: Web</p>
 <br>
 <p>许久没有听歌，今天才发现 Spotify 的会员可能早已失效了。可耻的我又转回了 Youtube Music。</p>
 <p>最近几天在琢磨 Obsidian 最合适自己的用法，并且也打算重启搁置许久的 blog 计划。这篇博文便是用 Gridea 发布在 github pages 上，之后打算再将以前的博文迁移过来。<s>其实发布的时候，还不知道配置的域名 dns 是否生效呢。</s></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[我又用回了 Youtube Music]]></title>
-        <id>https://2akira.github.io/post/wo-you-yong-hui-liao-youtube-music/</id>
-        <link href="https://2akira.github.io/post/wo-you-yong-hui-liao-youtube-music/">
-        </link>
-        <updated>2020-11-27T14:26:20.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="我又用回了-youtube-music">我又用回了 Youtube Music</h2>
-<p>淘宝上买的 Spotify 会员又失效了。</p>
-<p>原因是淘宝上的廉价会员，都是家庭会员，且跨区多少面临被封禁的危险。店家倒是提供换账号的售后服务，但是作为核心功能的 MIX，每次换账号必定都是一次折腾。所以这次想想还是算了。<s>究其原因还是贪便宜。</s></p>
-<p>放弃了折腾的想法，我老老实实用回了 Youtuber Music。</p>
-<h2 id="对比下-spotify-和-youtube-music-我关注的优缺点">对比下 spotify 和 Youtube Music 我关注的优缺点</h2>
-<h3 id="歌词">歌词</h3>
-<ul>
-<li>两者可以说都没有歌词。Youtube Music 最近播放列表右侧有 Lyrics 功能，但是显然还未服务到华语歌曲，Spotify 在美区，也不知道歌词是何物。</li>
-<li><strong>好在都可以使用开源软件 <a href="https://github.com/ddddxxx/LyricsX">LyricsX</a>同步歌词</strong> ，实现类似网易云音乐和 QQ 音乐类似的歌词效果。
-<ul>
-<li>Spotify 唯一的好处是，LyricsX 提供打开 Spotify 的同时打开歌词软件。</li>
-<li>Youtube Music 虽然也可以自动识别，但是其实并不怎么管用。</li>
-</ul>
-</li>
-</ul>
-<h3 id="曲库">曲库</h3>
-<ul>
-<li>显然 Youtube Music 更胜一筹。<strong>有版权的没版权的，只有 YouTube 有，在 Youtube Music 好像都可以听到</strong>。</li>
-<li>Spotify 即使美区很多华语歌曲和日语歌曲都没有版权。</li>
-</ul>
-<h3 id="推送-歌单">推送 &amp; 歌单</h3>
-<ul>
-<li>个人感觉 Youtube Music 比 Spotify 准确；</li>
-<li>但是却有一种口味反复推送的意味。不过上次使用还没有 MIX，希望有所改善吧。</li>
-</ul>
-<h3 id="youtube-music-有一种极其不规范的感觉">Youtube Music 有一种极其不规范的感觉</h3>
-<ul>
-<li>歌曲和视频混在在一起，且水准不一，有种不干净的感受。
-<ul>
-<li><strong>你永远不知道下一首是在听歌还是在听视频</strong>，歌曲和视频MV一同推送。（貌似更喜欢推送MV，而不是歌曲。）</li>
-<li>有些歌曲是网友自行上传的，因此<strong>歌曲、视频MV、现场视频混杂在一起</strong>，这种情况下整体品质可以称上是否尴尬了。</li>
-</ul>
-</li>
-<li><strong>Youtube Music 订阅的歌手，会出现在 Youtube 的订阅频道上。</strong>
-<ul>
-<li>该频道可能并歌手本人 Youtube 频道，因此会在 Youtube Feed 上推送其他视频；</li>
-<li>即使是本人 Youtube 频道，但当订阅歌手过多，其实也是一种对 Youtube Feed 的污染。（当然，你可能希望在 YouTube 上看到订阅歌手的最新歌曲。）</li>
-</ul>
-</li>
-<li>Youtube 频道上有个歌曲的内容，也会出现在 Youtube Music 上。
-<ul>
-<li>如果你看某个歌曲综艺节目，这肯能会是件好事吧；</li>
-<li>但比如当你（我）喜欢看 Vtuber 的时候，<strong>一大堆 Vtuber 的翻唱是件令人绝望的事</strong>。</li>
-</ul>
-</li>
-<li><s>Youtube Music 网页上可以使用 Adblock 屏蔽广告；Android 端可以使用 Vance Youtube。</s></li>
-</ul>
-<p>如果将两者比喻成大卖场：</p>
-<ul>
-<li>Youtube Music 虽然大而全，但好坏都有；</li>
-<li>Spotify 可能中庸，但少省心些。</li>
-</ul>
-<hr>
-<p>2020-11-29 补充：</p>
-<h3 id="将-spotify中的歌单转移到-youtube-music">将 spotify中的歌单转移到 Youtube Music</h3>
-<p>第一次用 YT Music 的时候转过一次，但上次使用的 <a href="https://soundiiz.com/zh/tutorial/spotify-to-youtube-music">soundiiz 工具</a>，这次却不管用了，只好使用另外一个叫 <a href="https://playlistbuddy.com/">playlist buddy 的工具</a>，分批次转移到 Youtube，然后每首歌点赞。</p>
-<p>其间发现了 YouTube Music 的更多问题：</p>
-<ul>
-<li>没有按照一般「歌手名+歌曲名」的格式，可能是因为大量视频歌曲在其中吧，因此显得非常混乱，不像一个听歌的规范应用。</li>
-<li>曲库也并没有大而全，比如喜欢的歌手 ms.ooja 许多歌曲都因版权问题无法存在。</li>
-<li>我还是相信 YT Music 会越来越「正规」，因此对于版权问题的处理，想必也会越来越严格。因此这种曲库大而全的假象，也是迟早会面临的问题。</li>
-<li>对于无版权歌曲的处理，spotify 虽然无法收听，但是依旧可以「喜爱」，但是 YT Music 则可能永远失去了这首歌。</li>
-</ul>
-<p>此外，转移之后，发现港区的 spotify 其实已经有歌词功能了。</p>
-<p><strong>说实话，在港区同样价格的前提下，我还是更推荐更省心的 spotify。</strong></p>
 ]]></content>
     </entry>
 </feed>
