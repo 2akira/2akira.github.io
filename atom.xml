@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://2akira.github.io</id>
     <title>羞于表达的木卯</title>
-    <updated>2020-12-13T09:25:12.837Z</updated>
+    <updated>2020-12-14T15:58:36.337Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://2akira.github.io"/>
     <link rel="self" href="https://2akira.github.io/atom.xml"/>
@@ -10,6 +10,22 @@
     <logo>https://2akira.github.io/images/avatar.png</logo>
     <icon>https://2akira.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 羞于表达的木卯</rights>
+    <entry>
+        <title type="html"><![CDATA[2020-12-14]]></title>
+        <id>https://2akira.github.io/post/2020-12-14/</id>
+        <link href="https://2akira.github.io/post/2020-12-14/">
+        </link>
+        <updated>2020-12-14T15:13:53.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="一周没有写博客">一周没有写博客。</h2>
+<p>我知道，每天的流水账其实挺没意思。</p>
+<p>可是，若哪天没写了，那必定是在虚度光阴。</p>
+<h2 id="今天研究了一下将之前博客的文章转移到-gridea-中">今天研究了一下将之前博客的文章转移到 Gridea 中</h2>
+<p>发现 Gridea 的 Front-matter 与主流静态博客好像都不一致。</p>
+<p>虽然 FQA 中介绍可从 hexo 复制转移，但是其实转移后因为 published 属性，文章全都变成了草稿，也就是未发表状态。</p>
+<p>所以，面临一个问题，需要将原文章的  Front-matter 全都修改一遍。</p>
+<p><s>突然不想用 Gridea 了。</s></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2020-12-06]]></title>
         <id>https://2akira.github.io/post/2020-12-06/</id>
@@ -316,24 +332,6 @@ Readwise: Web</p>
 <li>昨天配置的域名生效了；</li>
 <li>将谷歌统计配置到了 blog，第一次使用，还不知道有没有生效。😄</li>
 </ol>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2020-11-27]]></title>
-        <id>https://2akira.github.io/post/2020-11-27/</id>
-        <link href="https://2akira.github.io/post/2020-11-27/">
-        </link>
-        <updated>2020-11-27T16:20:17.000Z</updated>
-        <content type="html"><![CDATA[<p>天气冷了，才意识到冬天。</p>
-<p>傍晚看了[[李一凡]]拍摄的[[乡村档案]]开头，影片纪实了 2007 年发生在重庆乡村的事件。想起一位朋友说过的话，当想回忆童年的那个时代，却总感觉少了些物料的佐证。当时的人穿些什么、想些什么，明明是最熟悉的，可彷佛就是缺少些像样的记录，来体现那份真切。于是，一切变得不真切起来。</p>
-<br>
-<p>最近梳理[[我的 rss 订阅源]]，连带着愈发有个想法——<strong>不看新闻，只看故事；阅读人物，通过共情接触不一样的角落。</strong></p>
-<p>恰巧57届金马奖几日前揭晓，今日看到端传媒讲述「最佳纪录片」得奖影片《迷航》的<a href="https://theinitium.com/article/20201126-culture-li-zhe-xi-documentary-golden-horse/">文章</a>。不禁让我想起几日前未看完的[[李一凡]]纪录片《[[淹没]]》。两者在中国大地的不同角落发酵着，在主流媒体的回避彷佛是静悄悄的。阅读这样的故事，如身处黑夜，你虽然看不清，却依旧可以感受，<strong>除了热搜以外，中国比想象中要大的多。</strong></p>
-<p>但[[迷航]]的文章我只能稍微扫过，[[淹没]]也看得十分艰难。因为前者可能永远都无法观赏，后者找到盗版影片，可不懂方言，也没有中文字幕，两者都是在中国互联网上难以生存的事物。</p>
-<p>会想到去年看过的剧集[[Years and Years ]]，连在豆瓣网标注与评论的资格都没有。</p>
-<br>
-<p>许久没有听歌，今天才发现 Spotify 的会员可能早已失效了。可耻的我又转回了 Youtube Music。</p>
-<p>最近几天在琢磨 Obsidian 最合适自己的用法，并且也打算重启搁置许久的 blog 计划。这篇博文便是用 Gridea 发布在 github pages 上，之后打算再将以前的博文迁移过来。<s>其实发布的时候，还不知道配置的域名 dns 是否生效呢。</s></p>
 ]]></content>
     </entry>
 </feed>
