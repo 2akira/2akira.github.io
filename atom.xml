@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://2akira.github.io</id>
     <title>羞于表达的木卯</title>
-    <updated>2020-12-15T15:44:44.038Z</updated>
+    <updated>2020-12-17T14:25:33.858Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://2akira.github.io"/>
     <link rel="self" href="https://2akira.github.io/atom.xml"/>
@@ -10,6 +10,37 @@
     <logo>https://2akira.github.io/images/avatar.png</logo>
     <icon>https://2akira.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 羞于表达的木卯</rights>
+    <entry>
+        <title type="html"><![CDATA[2020-12-17 一个实践：一项任务 🙅 VS. 一件事 🙆]]></title>
+        <id>https://2akira.github.io/post/2020-12-17-yi-ge-shi-jian-yi-xiang-ren-wu-vs-yi-jian-shi/</id>
+        <link href="https://2akira.github.io/post/2020-12-17-yi-ge-shi-jian-yi-xiang-ren-wu-vs-yi-jian-shi/">
+        </link>
+        <updated>2020-12-17T14:24:41.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>一项任务 ——&gt; 一件事
+<ul>
+<li>计划要完成的一项任务 ——&gt; 打算要干的一件事</li>
+<li>今天完成的一项任务 ——&gt; 今天做了的一件事</li>
+<li>正在进行的一项任务 ——&gt; 正在干的一件事</li>
+<li>回顾今日任务 ——&gt; 今天干了什么事？</li>
+</ul>
+</li>
+<li>一个项目 ——&gt; 一件大事
+<ul>
+<li>本月的项目计划 ——&gt; 这个月有几件大事？</li>
+<li>项目进度 ——&gt; 事情半吊子中？</li>
+<li>项目回顾 ——&gt; 事情干的怎么样？</li>
+</ul>
+</li>
+<li>本质：书面化表述 ——&gt; 生活化语言
+<ul>
+<li>条理化 ——&gt; 带着情感</li>
+<li>将规划与生活对立起来 ——&gt; 它们都只是生活中发生的事，都构成生活</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2020-12-15]]></title>
         <id>https://2akira.github.io/post/2020-12-15/</id>
@@ -226,45 +257,5 @@ Readwise: Web</p>
 <p>在阅读的一篇<a href="https://matters.news/@az/%25E5%25BE%259E%25E5%25A4%25A7%25E9%2599%25B8%25E5%25AF%2584%25E7%25B5%25A6%25E9%2581%2594%25E6%2598%258E%25E7%259A%2584%25E6%2583%2585%25E6%259B%25B8-%25E6%2588%2591%25E6%25AC%25A0%25E4%25BD%25A0%25E5%2580%2591%25E5%25BE%2588%25E5%25A4%259A%25E7%259C%25BC%25E6%25B7%259A%25E8%25A6%2581%25E5%2588%25B0%25E7%258F%25BE%25E5%25A0%25B4%25E9%2582%2584-bafyreihvknqmp4tbcrsksevn5tyvdejsmn6erlrz7kdncrufzc6ohibtqa">文章</a>中也谈及关注个体。他说，「去愛每一個有血有肉的人，去愛每一個獨立的個體，而不是去愛一個冰冷的機器，也不是一個忽略渺小而美好的個體的宏大敘事。」大概都是类似的道理。</p>
 <br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/O56wBZ4zQ5Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2020-11-29]]></title>
-        <id>https://2akira.github.io/post/2020-11-29/</id>
-        <link href="https://2akira.github.io/post/2020-11-29/">
-        </link>
-        <updated>2020-11-29T16:53:46.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="发现-google-analytics-收集不到-blog-流量的原因">发现 Google Analytics 收集不到 Blog 流量的原因</h2>
-<p>竟然是自己浏览器上安装的 <a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm">uBlock Origin</a>将相关代码给屏蔽了。</p>
-<h2 id="关于-github-pages-被搜索引擎收录的问题">关于 Github Pages 被搜索引擎收录的问题</h2>
-<p>不用 Google Blogger 后，发现要考虑 SEO 的问题了……</p>
-<p>学习使用 Google Search Console 进行收录，在域名 DNS 解析中添加入 google 的 txt 记录进行验证。还不知道有没有生效。（原来使用的 Google 自家的 blogger 自然不需要这样的步骤）</p>
-<p>通过了解，发现 GitHub pages 因爬虫问题早已将百度屏蔽，需求解决方法发现可以部署在国内的 coding 上，或者是使用第三方托管工具 <a href="zeit.io">zeit.io</a><sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。而且提交给百度的网站，貌似都需要备案。</p>
-<p>回想到当初使用 blogger 的原因便是不想再自我审查考虑各种敏感的可能性，且自己的图片都托管在 Imgur 上，所以就让百度见鬼去吧。</p>
-<h2 id="obsidian-插入图片的问题">Obsidian 插入图片的问题</h2>
-<p>针对 Obsidian 中插入的图片，决定还是使用图床的方式好了。于是在 Imgur 中新建了 Obsidian_Card 专辑，通过 <a href="https://github.com/mileswd/mac2imgur">mac2imgur</a> 工具进行上传。</p>
-<h2 id="目前写-daily-blog-的流程减少书写的难度">目前写 daily Blog 的流程，减少书写的难度</h2>
-<ol>
-<li>时刻在 Obsidian 中回顾刚才发生的事件，并以「时间戳+事件简述」的形式进行记录；</li>
-<li>针对文章、书籍、及其他需要扩充为笔记的类型，则新建 zk 卡片笔记；</li>
-<li>当晚，挑选记录中的事件和卡片，进行合理的整合。</li>
-</ol>
-<p>这种灵感来源于任务管理和知识管理，前者是将目标化为细分的任务进行处理，后者则是最近使用 obsidian 学到的通过 zk 卡片的方式进行笔记记录。</p>
-<p>每天写一篇 blog 其实挺难的，但是使用这种方法，其实已经将写 blog 的这个过程细化了当天的每一刻。如同想写关于某个主题的文章，如果之前已经有了相当多「卡片」的积累，实际情况则只需要安排上下文即可。</p>
-<h2 id="用-rsshub-通过-inoreader-订阅了一些人的-twitter">用 rsshub 通过 inoreader 订阅了一些人的 Twitter</h2>
-<p>发现订阅源还有其他人订阅，虽然大多数 Twitter 用户的 rss 源订阅不超过十个，但在草果过程中依旧有种怦然心动的触感。原来，这世界上还有这样的人。</p>
-<h2 id="闲人闲事">闲人闲事</h2>
-<ul>
-<li>晚上怎么等外卖都没到，刷开手机，才发现忘记付款了。</li>
-<li>，这才发现几天没有主动刷推了。（发现订阅源还有其他人订阅，虽然不知十个，但有种怦然心动的感受，这个世界上还有这样的人。</li>
-</ul>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/x0qFPwwCwoM?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<hr class="footnotes-sep">
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p><a href="https://zhuanlan.zhihu.com/p/111773896">如何让百度收录 GitHub Pages 个人博客</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
     </entry>
 </feed>
