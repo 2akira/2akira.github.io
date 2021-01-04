@@ -4,7 +4,7 @@
 <meta name="description" content=""/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-<title>2020-12-03 拖延症 | 羞于表达的木卯</title>
+<title>可能是最后一次刷机的流程 | 羞于表达的木卯</title>
 
 <link rel="shortcut icon" href="https://2akira.github.io/favicon.ico?v=1609773184826">
 
@@ -101,20 +101,96 @@
         <div class="post-detail gt-bg-theme-color-second">
             <article class="gt-post-content">
                 <h2 class="post-title">
-                    2020-12-03 拖延症
+                    可能是最后一次刷机的流程
                 </h2>
                 <div class="post-info">
                     <time class="post-time gt-c-content-color-first">
-                        · 2020-12-04 ·
+                        · 2021-01-04 ·
                     </time>
                     
-                        <a href="https://2akira.github.io/tag/FzmBsItFJ/" class="post-tags">
-                            # Daily
+                        <a href="https://2akira.github.io/tag/DuesT9zfQ/" class="post-tags">
+                            # 刷机
                         </a>
                     
                 </div>
                 <div class="post-content">
-                    <p>拖延症到了一定程度，便已经不是单纯拖延的问题了。</p>
+                    <p>很久没刷机了，中间出现了多次问题，比如：</p>
+<ul>
+<li>设备解锁之后会恢复出厂，结果我现刷 rom 包，后刷 TWRP 了；</li>
+<li>第一次开机引导过程中，无法验证谷歌服务；</li>
+<li>Fastboot 版本过低，导致错误。</li>
+</ul>
+<h2 id="背景">背景</h2>
+<ul>
+<li>手上的 Android 设备有时很卡，特别是国内一些毒瘤 APP；</li>
+<li>没有选择恢复出厂设置，是希望 Magisk 优化一下系统，并刷 root 版黑域和 yc 调度。</li>
+<li>环境：Mac OS</li>
+</ul>
+<h2 id="准备">准备</h2>
+<ul>
+<li>官方 ROM 包 OTA.zip；</li>
+<li>android-platform-tools；</li>
+<li>TWRP.img；</li>
+<li>Magisk.zip；</li>
+</ul>
+<h2 id="刷入官方-rom">刷入官方 ROM</h2>
+<h3 id="mac-安装-adb-命令">Mac 安装 adb 命令</h3>
+<ol>
+<li>安装 brew；</li>
+<li>使用命令<code>brew cask install android-platform-tools</code>安装;</li>
+<li>USB 连接手机，开发者模式下打开USB调试，<code>adb devices</code>测试是否显示设备。</li>
+</ol>
+<h3 id="刷入官方-rom-包">刷入官方 ROM 包</h3>
+<ol>
+<li><code>adb reboot bootloader</code>，重启到 fastboot；</li>
+<li><code>adb sideload &lt;file\_location&gt;</code>，刷入官方 ROM 包。</li>
+</ol>
+<h2 id="第一次开机引导通过谷歌验证">第一次开机引导通过谷歌验证</h2>
+<ol>
+<li>使用 surge 科学上网，设置为增强模式；（有 15 天试用期，使用其网关模式功能）</li>
+<li>Android 设备第一次开机，引导至连接 WI-FI 处；</li>
+<li>连接 Mac 同一局域网的路由 Wi-Fi ：
+<ol>
+<li>填写密码，打开高级选项；</li>
+<li>将 IP 设置改为静态，而非 DHCP；</li>
+<li>IP 填写路由中未占用的地址；</li>
+<li>网关修改为 Mac 的 ip 地址；（在「系统偏好设置-网络」或 surge 中查看）</li>
+<li>DNS 修改为<code>198.18.0.2</code>，即 surge 增强模式下的 effective DNS；</li>
+<li>进行连接。</li>
+</ol>
+</li>
+<li>等待成功验证。</li>
+</ol>
+<p>注：</p>
+<ol>
+<li>技术小白，目前只知道这种方法；</li>
+<li>当然如果你有个能科学上网的软路由那就当我没说；</li>
+<li>使用 ClashX PRO 的「允许局域网连接」，然后开机引导的 Wi-Fi 连接设置「代理」并无效；（之前试图使用这种方法，结果根本无效）</li>
+<li>网络上多教如何跳过，但是作为长期使用谷歌服务并使用谷歌备份的用户来说，这是我第一次在开机验证的时候选择 drive 中备份的数据恢复系统，省去了大量设置和 APP 安装的工作。（这是 google 的服务之一）</li>
+</ol>
+<h2 id="刷入-magisk">刷入 Magisk</h2>
+<p>基本按照 <a href="https://magiskmanager.com/">Magisk Manager</a> 网站的引导一步一步进行。</p>
+<ol>
+<li><a href="https://twrp.me/">TWRP</a>网站，寻找设备的对应版本下载；</li>
+<li>启动 USB 调试，将 Magisk.zip 下载在手机中；</li>
+<li><code>adb reboot bootloader</code>；</li>
+<li><code>fastboot flash recovery twrp.img</code>;</li>
+<li><code>adb reboot recovery</code>;</li>
+<li>使用 twrp 安装  Magisk.zip。</li>
+</ol>
+<p>碰到的问题：</p>
+<ol>
+<li>现在看来，其实没必要解锁设备；</li>
+<li>原先有安装 adb 命令，结果使用后出错，后来发现应该是版本问题，根据提示或者一步一步重新安装<code>android-platform-tools</code>即可；</li>
+<li>刷入 twrp 时，可以选择只读模式，之后重启后便还是系统再带的 recovery。</li>
+<li>碰到过 APP 在 root 下无法打开，只需要在 Magisk manage 中打开 Magisk Hide，回到主界面选择你像对之隐藏的 APP 即可。</li>
+</ol>
+<h2 id="感受">感受</h2>
+<ol>
+<li>多使用 English 进行搜索，无论是官网教程还是英文社区的资料多更加准确与详尽；</li>
+<li>针对毒瘤 APP 只能更换设备，或者使用微信&amp;支付宝小程序；</li>
+<li>少搜索资料，根据官方指引一步一步操作即可。</li>
+</ol>
 
                 </div>
             </article>
@@ -123,8 +199,8 @@
         
             <div class="next-post">
                 <div class="next gt-c-content-color-first">下一篇</div>
-                <a href="https://2akira.github.io/post/2020-12-02/" class="post-title gt-a-link">
-                    2020-12-02 我决定 2021 年不再看任何国产剧情片
+                <a href="https://2akira.github.io/post/2020-nian-hui-gu/" class="post-title gt-a-link">
+                    2020 年回顾
                 </a>
             </div>
         

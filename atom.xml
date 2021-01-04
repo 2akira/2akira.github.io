@@ -2,14 +2,99 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://2akira.github.io</id>
     <title>羞于表达的木卯</title>
-    <updated>2020-12-31T04:22:26.715Z</updated>
+    <updated>2021-01-04T15:13:10.744Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://2akira.github.io"/>
     <link rel="self" href="https://2akira.github.io/atom.xml"/>
     <subtitle>拥抱自己</subtitle>
     <logo>https://2akira.github.io/images/avatar.png</logo>
     <icon>https://2akira.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, 羞于表达的木卯</rights>
+    <rights>All rights reserved 2021, 羞于表达的木卯</rights>
+    <entry>
+        <title type="html"><![CDATA[可能是最后一次刷机的流程]]></title>
+        <id>https://2akira.github.io/post/ke-neng-shi-zui-hou-yi-ci-shua-ji-de-liu-cheng/</id>
+        <link href="https://2akira.github.io/post/ke-neng-shi-zui-hou-yi-ci-shua-ji-de-liu-cheng/">
+        </link>
+        <updated>2021-01-04T15:12:17.000Z</updated>
+        <content type="html"><![CDATA[<p>很久没刷机了，中间出现了多次问题，比如：</p>
+<ul>
+<li>设备解锁之后会恢复出厂，结果我现刷 rom 包，后刷 TWRP 了；</li>
+<li>第一次开机引导过程中，无法验证谷歌服务；</li>
+<li>Fastboot 版本过低，导致错误。</li>
+</ul>
+<h2 id="背景">背景</h2>
+<ul>
+<li>手上的 Android 设备有时很卡，特别是国内一些毒瘤 APP；</li>
+<li>没有选择恢复出厂设置，是希望 Magisk 优化一下系统，并刷 root 版黑域和 yc 调度。</li>
+<li>环境：Mac OS</li>
+</ul>
+<h2 id="准备">准备</h2>
+<ul>
+<li>官方 ROM 包 OTA.zip；</li>
+<li>android-platform-tools；</li>
+<li>TWRP.img；</li>
+<li>Magisk.zip；</li>
+</ul>
+<h2 id="刷入官方-rom">刷入官方 ROM</h2>
+<h3 id="mac-安装-adb-命令">Mac 安装 adb 命令</h3>
+<ol>
+<li>安装 brew；</li>
+<li>使用命令<code>brew cask install android-platform-tools</code>安装;</li>
+<li>USB 连接手机，开发者模式下打开USB调试，<code>adb devices</code>测试是否显示设备。</li>
+</ol>
+<h3 id="刷入官方-rom-包">刷入官方 ROM 包</h3>
+<ol>
+<li><code>adb reboot bootloader</code>，重启到 fastboot；</li>
+<li><code>adb sideload &lt;file\_location&gt;</code>，刷入官方 ROM 包。</li>
+</ol>
+<h2 id="第一次开机引导通过谷歌验证">第一次开机引导通过谷歌验证</h2>
+<ol>
+<li>使用 surge 科学上网，设置为增强模式；（有 15 天试用期，使用其网关模式功能）</li>
+<li>Android 设备第一次开机，引导至连接 WI-FI 处；</li>
+<li>连接 Mac 同一局域网的路由 Wi-Fi ：
+<ol>
+<li>填写密码，打开高级选项；</li>
+<li>将 IP 设置改为静态，而非 DHCP；</li>
+<li>IP 填写路由中未占用的地址；</li>
+<li>网关修改为 Mac 的 ip 地址；（在「系统偏好设置-网络」或 surge 中查看）</li>
+<li>DNS 修改为<code>198.18.0.2</code>，即 surge 增强模式下的 effective DNS；</li>
+<li>进行连接。</li>
+</ol>
+</li>
+<li>等待成功验证。</li>
+</ol>
+<p>注：</p>
+<ol>
+<li>技术小白，目前只知道这种方法；</li>
+<li>当然如果你有个能科学上网的软路由那就当我没说；</li>
+<li>使用 ClashX PRO 的「允许局域网连接」，然后开机引导的 Wi-Fi 连接设置「代理」并无效；（之前试图使用这种方法，结果根本无效）</li>
+<li>网络上多教如何跳过，但是作为长期使用谷歌服务并使用谷歌备份的用户来说，这是我第一次在开机验证的时候选择 drive 中备份的数据恢复系统，省去了大量设置和 APP 安装的工作。（这是 google 的服务之一）</li>
+</ol>
+<h2 id="刷入-magisk">刷入 Magisk</h2>
+<p>基本按照 <a href="https://magiskmanager.com/">Magisk Manager</a> 网站的引导一步一步进行。</p>
+<ol>
+<li><a href="https://twrp.me/">TWRP</a>网站，寻找设备的对应版本下载；</li>
+<li>启动 USB 调试，将 Magisk.zip 下载在手机中；</li>
+<li><code>adb reboot bootloader</code>；</li>
+<li><code>fastboot flash recovery twrp.img</code>;</li>
+<li><code>adb reboot recovery</code>;</li>
+<li>使用 twrp 安装  Magisk.zip。</li>
+</ol>
+<p>碰到的问题：</p>
+<ol>
+<li>现在看来，其实没必要解锁设备；</li>
+<li>原先有安装 adb 命令，结果使用后出错，后来发现应该是版本问题，根据提示或者一步一步重新安装<code>android-platform-tools</code>即可；</li>
+<li>刷入 twrp 时，可以选择只读模式，之后重启后便还是系统再带的 recovery。</li>
+<li>碰到过 APP 在 root 下无法打开，只需要在 Magisk manage 中打开 Magisk Hide，回到主界面选择你像对之隐藏的 APP 即可。</li>
+</ol>
+<h2 id="感受">感受</h2>
+<ol>
+<li>多使用 English 进行搜索，无论是官网教程还是英文社区的资料多更加准确与详尽；</li>
+<li>针对毒瘤 APP 只能更换设备，或者使用微信&amp;支付宝小程序；</li>
+<li>少搜索资料，根据官方指引一步一步操作即可。</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2020 年回顾]]></title>
         <id>https://2akira.github.io/post/2020-nian-hui-gu/</id>
@@ -329,97 +414,6 @@
 <p>即使把自己关在小房间，关注与阅读的大多东西也与自己无关。</p>
 <p>一天觉得乏味，也是因为其实经历的大多数与自己无关，所以回味起来也觉得枯燥。</p>
 <p>过好生活其实很容易，但我觉得好难。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[导出 kindle 笔记或标注的工具]]></title>
-        <id>https://2akira.github.io/post/dao-chu-kindle-bi-ji-huo-biao-zhu-de-gong-ju/</id>
-        <link href="https://2akira.github.io/post/dao-chu-kindle-bi-ji-huo-biao-zhu-de-gong-ju/">
-        </link>
-        <updated>2020-11-30T15:30:20.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="列举">列举</h2>
-<ol>
-<li><a href="https://knotesapp.cn/">Knotes</a></li>
-<li><a href="https://toolinbox.net/Klib/">Klib</a></li>
-<li><a href="https://bookfere.com/post/110.html">Clippings Fere</a></li>
-<li><a href="https://www.clippings.io/">Clippings.io</a></li>
-<li><a href="https://readwise.io/">Readwise</a></li>
-</ol>
-<h2 id="无法避开的雷">无法避开的雷</h2>
-<p><strong>1. 个人文档的标记或笔记，它们无法在多终端同步。</strong></p>
-<p>如果书籍是个人文档，则相应的标记或笔记，将不在各个终端之间同步。即使通过邮件发送的个人文档，也仅仅是阅读进度同步，但是标记之类的是不会同步的。</p>
-<p>😊 所以，不要在手机端阅读好了。😊</p>
-<p><strong>2. 在 Kindle 阅读器输入笔记是个灾难，标记也往往划多个几个字或词。</strong></p>
-<p>我想没多少人会自残到在 Kindle 阅读器上做笔记，我愿意之间随手用手机将笔记打在 Google Keep 中。</p>
-<p>至于标记，因为操作的不便捷，根据我的记录来看，也可能会出现一下几种错误：</p>
-<ul>
-<li>前后可能多了或少了标点符号，或是字词；</li>
-<li>标记「划」了两次，结果重复标记了（其中一条记录可能是多了个句号，或是觉得相邻句子也重要于是合并标记导致）；</li>
-<li>跨页标记的问题。（这是个谜题）</li>
-</ul>
-<p><strong>3. 除非是亚马逊购买的书籍，否则当你想回顾阅读笔记或标记时，你是无法对应上下文。</strong></p>
-<p>当在 Klib 阅读亚马逊书籍的笔记时，是可以直接跳转到 Kindle for Mac 应用中对应的书籍的标记位置，查询笔记或标记的上下文。</p>
-<p>这对回顾笔记的用途和意义，造成了一定的干扰。</p>
-<h2 id="对比-选择">对比 &amp; 选择</h2>
-<p><em>以下对比的体验场景，默认是在国区，且会阅读导入的个人文档书籍。</em></p>
-<ol>
-<li>终端</li>
-</ol>
-<p>Knotes: Windows, Mac OS, iOS（预计在明年初推出 Android 端）<br>
-Klib: Mac OS<br>
-Clippings Fere: Windows, Mac OS<br>
-Clippings.io: Web<br>
-Readwise: Web</p>
-<p>事实上，主流的应用场景还是直接导入 Kindle 终端中 Clipping.txt 文件的形式。</p>
-<ol start="2">
-<li>收费之王：Knotes</li>
-</ol>
-<p>收费意味着持续的功能与体验更新和 bug 修正。所以若对价格不敏感，则 Knotes 应该是最好的选择。</p>
-<p>Knotes 刚刚 iOS 版本发布，年价格降至 ¥33 对比 Klib 的 ¥99/year 和 Readwise 的 $7.99/month，基础功能上，Knotes 和 Klib 都具备导入、导出、新添笔记、编辑笔记的功能。</p>
-<p>但个人认为 Knotes 显然更贴近用户体验，且针对国内环境提供了一些本地化的亮点，如：</p>
-<ul>
-<li>整合微信读书的笔记导入；</li>
-<li>书籍管理；</li>
-<li>笔记回顾提醒；</li>
-<li>将书摘和笔记制作图片，分享到社交网络；</li>
-<li>多终端使用。</li>
-</ul>
-<p>当然， Klib 也提供一些差异化功能亮点，如：</p>
-<ul>
-<li>Apple Books 的导入；</li>
-<li>上文提到的查看书籍上下文；</li>
-<li>可将整本书的笔记通过链接分享出来；</li>
-<li>针对整本书，提炼出二级标题（有在内构整本书框架的意味，可惜有些含糊不清）；</li>
-</ul>
-<p><strong>综合看来，Knotes 其实是最好的选择。</strong></p>
-<ol start="3">
-<li>免费仔之王：Clippings Fere &amp; Clippings.io</li>
-</ol>
-<p>Clippings Fere 为本地工具，输出 html 网页。除此显示二级目录外，没有上述任何收费应用的的大功能。</p>
-<p>Clippings.io 为 web 工具，完全可以想像成 Clippings Fere 的网页版本。不过另外提供一些其他服务：</p>
-<ul>
-<li>新添笔记；</li>
-<li>编辑笔记；</li>
-<li>导出笔记；</li>
-<li>搜索；</li>
-<li>标签；</li>
-<li>书籍分类；</li>
-<li>My Clippings.txt 文件版本记录。</li>
-</ul>
-<p>不过 Clippings.io 在笔记过多的情况下，会存在一秒左右的刷新加载时间。从功能上说， Clippings.io 其实能与其他收费应用相比较了。</p>
-<p>当然，Clippings Fere 也胜在简洁明了，若想拥有一个纯净的阅读展示工具，其实是个不错的选择。</p>
-<h2 id="我的观念与偏见">我的观念与偏见</h2>
-<p><strong>1. 应该用自己的话归纳笔记，而不是做书摘。</strong></p>
-<p>学习过 [Zettelkasten] 卡片盒笔记法](https://zettelkasten.de/)和《如何阅读一本书》之后，我认识到「真正的笔记」应该是用自己的话表述的。若想有效地读增进理解的书，笔记也不该是零散的，而是针对书籍框架、带着问题作出分析笔记。</p>
-<p><strong>2. 所以我不会在此类 Kindle 笔记或标注的工具上，从事新添笔记、编辑笔记，因为这些都不是「真正的笔记」。</strong></p>
-<p>我倾向于将这类工具作为一个展示标记的载体。毕竟做「真正的笔记」，可能还需要重读书籍、章节或上下文。而<strong>这个载体的功能则为在书写「真正的笔记」时，提供重点、记忆点。</strong></p>
-<p><strong>3. 大多数工具其实仅限于提升丁点的效率，切莫陷入研究工具中，而忘记为理解而读书的本质。</strong></p>
-<p>静下，想一想千百年来普通与伟大的人，你与他们差的并不是工具。</p>
-<hr>
-<p>References:</p>
-<ol>
-<li><a href="https://blog.k8s.li/kindle-note.html">分享 kindle 标注的几种方法</a></li>
-</ol>
 ]]></content>
     </entry>
 </feed>
